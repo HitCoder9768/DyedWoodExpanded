@@ -10,16 +10,16 @@ buildscript {
 
 apply plugin: 'foxloader.dev'
 
-version '1.1.1'
+version '1.1.2'
 
 foxloader {
     // forceReload = true
-    modId = "examplemod"
-    modName = "Fox Loader Example Mod"
+    modId = "hitcoderdyedwoodexpanded"
+    modName = "Dyed Wood Expanded"
     modVersion = project.version
-    modDesc = "An example mod for developers!!"
-    clientMod = "com.fox2code.examplemod.ExampleModClient"
-    serverMod = "com.fox2code.examplemod.ExampleModServer"
+    modDesc = "Adds more variations of wood to expand dyed wood!"
+    clientMod = "com.hitcoder.dyedwoodexpanded.DyedWoodExpandedClient"
+    serverMod = "com.hitcoder.dyedwoodexpanded.DyedWoodExpandedServer"
     // Development tools don't like that both client and server define
     // the same classes, so uncomment to disable the side inclusion.
     // includeClient = false
